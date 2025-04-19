@@ -1,21 +1,21 @@
 <div align="center">
 <h1>
-  Revolt Frontend
+  TrueVolt Frontend
   
-  [![Stars](https://img.shields.io/github/stars/revoltchat/frontend?style=flat-square&logoColor=white)](https://github.com/revoltchat/frontend/stargazers)
-  [![Forks](https://img.shields.io/github/forks/revoltchat/frontend?style=flat-square&logoColor=white)](https://github.com/revoltchat/frontend/network/members)
-  [![Pull Requests](https://img.shields.io/github/issues-pr/revoltchat/frontend?style=flat-square&logoColor=white)](https://github.com/revoltchat/frontend/pulls)
-  [![Issues](https://img.shields.io/github/issues/revoltchat/frontend?style=flat-square&logoColor=white)](https://github.com/revoltchat/frontend/issues)
-  [![Contributors](https://img.shields.io/github/contributors/revoltchat/frontend?style=flat-square&logoColor=white)](https://github.com/revoltchat/frontend/graphs/contributors)
-  [![License](https://img.shields.io/github/license/revoltchat/frontend?style=flat-square&logoColor=white)](https://github.com/revoltchat/frontend/blob/main/LICENSE)
+  [![Stars](https://img.shields.io/github/stars/TrueVolt/frontend?style=flat-square&logoColor=white)](https://github.com/TrueVolt/frontend/stargazers)
+  [![Forks](https://img.shields.io/github/forks/TrueVolt/frontend?style=flat-square&logoColor=white)](https://github.com/TrueVolt/frontend/network/members)
+  [![Pull Requests](https://img.shields.io/github/issues-pr/TrueVolt/frontend?style=flat-square&logoColor=white)](https://github.com/TrueVolt/frontend/pulls)
+  [![Issues](https://img.shields.io/github/issues/TrueVolt/frontend?style=flat-square&logoColor=white)](https://github.com/TrueVolt/frontend/issues)
+  [![Contributors](https://img.shields.io/github/contributors/TrueVolt/frontend?style=flat-square&logoColor=white)](https://github.com/TrueVolt/frontend/graphs/contributors)
+  [![License](https://img.shields.io/github/license/TrueCord/TrueVolt?style=flat-square&logoColor=white)](https://github.com/TrueVolt/frontend/blob/main/LICENSE)
 </h1>
-The official web client powering https://revolt.chat/app, built with <a href="https://www.solidjs.com/">Solid.js</a> 💖.
+The official web client powering https://TrueCord.erroroliver.lol/app, built with <a href="https://www.solidjs.com/">Solid.js</a> 💖.
 </div>
 <br/>
 
 ## Development Guide
 
-Before contributing, make yourself familiar with [our contribution guidelines](https://developers.revolt.chat/contrib.html), the [code style guidelines](./GUIDELINES.md), and the [technical documentation for this project](https://revoltchat.github.io/frontend/).
+Before contributing, make yourself familiar with [our contribution guidelines](https://TrueVolt-developers.ErrorOliver.lol/contrib.html), the [code style guidelines](./GUIDELINES.md), and the [technical documentation for this project](https://TrueVolt.github.io/frontend/).
 
 Before getting started, you'll want to install:
 
@@ -27,7 +27,7 @@ Then proceed to setup:
 
 ```bash
 # clone the repository
-git clone --recursive https://github.com/revoltchat/frontend client
+git clone --recursive https://github.com/TrueVolt/frontend client
 cd client
 
 # update submodules if you pull new changes
@@ -39,8 +39,8 @@ pnpm i --frozen-lockfile
 # build deps:
 pnpm build:deps
 
-# or build a specific dep (e.g. revolt.js updates):
-# pnpm --filter revolt.js run build
+# or build a specific dep (e.g. TrueVolt.js updates):
+# pnpm --filter TrueVolt.js run build
 
 # run dev server
 pnpm dev:web
@@ -48,9 +48,9 @@ pnpm dev:web
 
 Finally, navigate to http://local.revolt.chat:5173.
 
-### Pulling in Revolt's assets
+### Pulling in TrueVolt's assets
 
-If you want to pull in Revolt brand assets after pulling, run the following:
+If you want to pull TrueVolt Revolt brand assets after pulling, run the following:
 
 ```bash
 # update the assets
