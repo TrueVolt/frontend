@@ -40,7 +40,7 @@ pnpm i --frozen-lockfile
 pnpm build:deps
 
 # or build a specific dep (e.g. TrueVolt.js updates):
-# pnpm --filter TrueVolt.js run build
+# pnpm --filter truevolt.js run build
 
 # run dev server
 pnpm dev:web
@@ -64,17 +64,17 @@ You can switch back to the fallback assets by running deinit and continuing as n
 git submodule deinit packages/client/assets
 ```
 
-### Faster iteration with Revolt.js
+### Faster iteration with truevolt.js
 
-To make it easier to work with `revolt.js`, you may want to temporarily make this change:
+To make it easier to work with `truevolt.js`, you may want to temporarily make this change:
 
 ```diff
-# packages/revolt.js/package.json
+# packages/truevolt.js/package.json
 -  "module": "lib/esm/index.js",
 +  "module": "src/index.ts",
 ```
 
-Any edits to the revolt.js codebase will immediately be reflected while developing.
+Any edits to the truevolt.js codebase will immediately be reflected while developing.
 
 ## Deployment Guide
 
@@ -90,7 +90,7 @@ pnpm build:deps
 # build for web
 pnpm build:web
 
-# ... when building for Revolt production, use this instead of :web
+# ... when building for TrueVolt production, use this instead of :web
 pnpm build:prod
 ```
 
